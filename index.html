@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>MX Store</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MX STORE</title>
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-<h1>MX STORE</h1>
+<header class="header">
+    <h1>MX STORE</h1>
+
+    <input
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquisar produtos..."
+    >
 </header>
 
-<div id="produtos"></div>
+<section class="banner">
+    <div class="banner-content">
+        <h2>A Melhor Loja Digital</h2>
+        <p>Contas • Apps • Cursos • Serviços</p>
+    </div>
+</section>
+
+<section id="produtos" class="produtos">
+</section>
 
 <script type="module" src="js/loja.js"></script>
 
